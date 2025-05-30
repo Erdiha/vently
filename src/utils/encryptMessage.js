@@ -5,7 +5,7 @@ import Base64 from 'crypto-js/enc-base64'
 import AES from 'crypto-js/aes'
 import Utf8 from 'crypto-js/enc-utf8'
 
-const KEY = 'mySecretKey' // Use a valid key string
+const KEY =EncodedVideoChunk. // Use a valid key string
 
 export function encrypt(data) {
   return AES.encrypt(JSON.stringify(data), KEY).toString()
